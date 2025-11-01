@@ -18,9 +18,9 @@
     "scaleMode": "linear",
     "sizeOnStartupMode": "",
     "templateSlug": "",
-    "version": "1.0.0",
+    "version": "1.1.0",
     "name": "The Last Candle",
-    "description": "Когда тьма поглощает всё, остаётся лишь свет свечи.\n\nТы — призрак, затерявшийся в стенах древнего замка.\nУ тебя осталась только одна свеча — твой единственный путь к свободе.\nНо свет тает с каждой секундой...\n\nСможешь ли ты выйти, прежде чем тьма поглотит тебя навсегда?",
+    "description": "Когда тьма поглощает всё, остаётся лишь свет свечи.\n\nТы — призрак, затерявшийся в стенах древнего замка.\nУ тебя осталась только одна свеча — твой единственный путь к свободе.\nНо свет тает с каждой секундой...\n\nThe Last Candle — короткая атмосферная инди-игра, созданная за 7 дней для EasyJam.\n\nЗдесь время — это свет. Каждый миг, каждое движение, каждое столкновение с тенью уносит часть свечи.\n\n🔦 Исследуй старый замок.\n⚙️ Решай простые загадки.\n👁️ Избегай теней, что тянутся к твоему свету.\n🚪 Найди выход — или останься навечно во тьме.\n\n🕯️ Последняя свеча горит. Что ты выберешь: страх или надежду?\n<p>Здесь время &mdash; это свет. Каждый миг, каждое движение, каждое столкновение с тенью уносит часть свечи.\n </p>\n<p>🔦 Исследуй старый замок.<br> ⚙️ Решай простые загадки.<br> 👁️ Избегай теней, что тянутся к твоему свету.<br> 🚪 Найди выход &mdash; или останься навечно во тьме.\n </p>\n<p>🕯️ <strong>Последняя свеча горит. Что ты выберешь: страх или надежду?</strong>\n</p>",
     "author": "TheMMM4k",
     "windowWidth": 1280,
     "windowHeight": 720,
@@ -96,7 +96,7 @@
   "resources": {
     "resources": [
       {
-        "file": "assets/1_candle.png",
+        "file": "assets/1_candle2.png",
         "kind": "image",
         "metadata": "",
         "name": "1_candle.png",
@@ -108,7 +108,7 @@
         }
       },
       {
-        "file": "assets/2_candle.png",
+        "file": "assets/2_candle2.png",
         "kind": "image",
         "metadata": "",
         "name": "2_candle.png",
@@ -120,7 +120,7 @@
         }
       },
       {
-        "file": "assets/3_candle.png",
+        "file": "assets/3_candle2.png",
         "kind": "image",
         "metadata": "",
         "name": "3_candle.png",
@@ -132,7 +132,7 @@
         }
       },
       {
-        "file": "assets/4_candle.png",
+        "file": "assets/4_candle2.png",
         "kind": "image",
         "metadata": "",
         "name": "4_candle.png",
@@ -144,7 +144,7 @@
         }
       },
       {
-        "file": "assets/5_candle.png",
+        "file": "assets/5_candle2.png",
         "kind": "image",
         "metadata": "",
         "name": "5_candle.png",
@@ -156,7 +156,7 @@
         }
       },
       {
-        "file": "assets/6_candle.png",
+        "file": "assets/6_candle2.png",
         "kind": "image",
         "metadata": "",
         "name": "6_candle.png",
@@ -168,7 +168,7 @@
         }
       },
       {
-        "file": "assets/Tilesetv3.png",
+        "file": "assets/Tilesetv4.png",
         "kind": "image",
         "metadata": "",
         "name": "Tilesetv3.png",
@@ -180,7 +180,7 @@
         }
       },
       {
-        "file": "assets/Door_Closed.png",
+        "file": "assets/Door_Closed2.png",
         "kind": "image",
         "metadata": "",
         "name": "Door_Closed.png",
@@ -192,7 +192,7 @@
         }
       },
       {
-        "file": "assets/Door_Closing_1.png",
+        "file": "assets/Door_Closing_6.png",
         "kind": "image",
         "metadata": "",
         "name": "Door_Closing_1.png",
@@ -204,7 +204,7 @@
         }
       },
       {
-        "file": "assets/Door_Closing_2.png",
+        "file": "assets/Door_Closing_7.png",
         "kind": "image",
         "metadata": "",
         "name": "Door_Closing_2.png",
@@ -216,7 +216,7 @@
         }
       },
       {
-        "file": "assets/Door_Closing_3.png",
+        "file": "assets/Door_Closing_8.png",
         "kind": "image",
         "metadata": "",
         "name": "Door_Closing_3.png",
@@ -228,7 +228,7 @@
         }
       },
       {
-        "file": "assets/Door_Closing_4.png",
+        "file": "assets/Door_Closing_9.png",
         "kind": "image",
         "metadata": "",
         "name": "Door_Closing_4.png",
@@ -240,7 +240,7 @@
         }
       },
       {
-        "file": "assets/Door_Closing_5.png",
+        "file": "assets/Door_Closing_10.png",
         "kind": "image",
         "metadata": "",
         "name": "Door_Closing_5.png",
@@ -252,7 +252,7 @@
         }
       },
       {
-        "file": "assets/Door_Opening_1.png",
+        "file": "assets/Door_Opening_6.png",
         "kind": "image",
         "metadata": "",
         "name": "Door_Opening_1.png",
@@ -264,7 +264,7 @@
         }
       },
       {
-        "file": "assets/Door_Opening_2.png",
+        "file": "assets/Door_Opening_7.png",
         "kind": "image",
         "metadata": "",
         "name": "Door_Opening_2.png",
@@ -276,7 +276,7 @@
         }
       },
       {
-        "file": "assets/Door_Opening_3.png",
+        "file": "assets/Door_Opening_8.png",
         "kind": "image",
         "metadata": "",
         "name": "Door_Opening_3.png",
@@ -288,7 +288,7 @@
         }
       },
       {
-        "file": "assets/Door_Opening_4.png",
+        "file": "assets/Door_Opening_9.png",
         "kind": "image",
         "metadata": "",
         "name": "Door_Opening_4.png",
@@ -300,7 +300,7 @@
         }
       },
       {
-        "file": "assets/Door_Opening_5.png",
+        "file": "assets/Door_Opening_10.png",
         "kind": "image",
         "metadata": "",
         "name": "Door_Opening_5.png",
@@ -312,7 +312,7 @@
         }
       },
       {
-        "file": "assets/NewSprite7.png",
+        "file": "assets/NewSprite10.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "NewSprite7",
@@ -320,7 +320,7 @@
         "userAdded": false
       },
       {
-        "file": "assets/NewSprite8.png",
+        "file": "assets/NewSprite11.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "NewSprite8",
@@ -328,7 +328,7 @@
         "userAdded": false
       },
       {
-        "file": "assets/NewSprite9.png",
+        "file": "assets/NewSprite12.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "NewSprite9",
@@ -336,7 +336,7 @@
         "userAdded": false
       },
       {
-        "file": "assets/Bronze bar background.png",
+        "file": "assets/Bronze bar background2.png",
         "kind": "image",
         "metadata": "",
         "name": "Bronze bar background.png",
@@ -348,7 +348,7 @@
         }
       },
       {
-        "file": "assets/Brown LCD Bar Fill.png",
+        "file": "assets/Brown LCD Bar Fill2.png",
         "kind": "image",
         "metadata": "",
         "name": "Brown LCD Bar Fill.png",
@@ -360,7 +360,7 @@
         }
       },
       {
-        "file": "assets/Green LCD Bar Fill.png",
+        "file": "assets/Green LCD Bar Fill2.png",
         "kind": "image",
         "metadata": "",
         "name": "Green LCD Bar Fill.png",
@@ -372,7 +372,7 @@
         }
       },
       {
-        "file": "assets/ai_stopper.png",
+        "file": "assets/ai_stopper2.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
         "name": "ai_stopper",
@@ -380,7 +380,7 @@
         "userAdded": false
       },
       {
-        "file": "assets/kevin-macleod-horizon.mp3",
+        "file": "assets/kevin-macleod-horizon2.mp3",
         "kind": "audio",
         "metadata": "",
         "name": "kevin-macleod-horizon.mp3",
@@ -394,7 +394,7 @@
         }
       },
       {
-        "file": "assets/8BitOperatorPlus8Regular_Edited.png",
+        "file": "assets/8BitOperatorPlus8Regular_Edited3.png",
         "kind": "image",
         "metadata": "",
         "name": "8BitOperatorPlus8Regular_Edited.png",
@@ -406,7 +406,7 @@
         }
       },
       {
-        "file": "assets/Border.png",
+        "file": "assets/Border3.png",
         "kind": "image",
         "metadata": "",
         "name": "Border.png",
@@ -418,7 +418,7 @@
         }
       },
       {
-        "file": "assets/Border2.png",
+        "file": "assets/Border4.png",
         "kind": "image",
         "metadata": "",
         "name": "Border2.png",
@@ -430,7 +430,7 @@
         }
       },
       {
-        "file": "assets/8BitOperatorPlus8Regular_Edited.fnt",
+        "file": "assets/8BitOperatorPlus8Regular_Edited3.fnt",
         "kind": "bitmapFont",
         "metadata": "",
         "name": "8BitOperatorPlus8Regular_Edited.fnt",
@@ -441,7 +441,7 @@
         }
       },
       {
-        "file": "assets/basis33.ttf",
+        "file": "assets/basis34.ttf",
         "kind": "bitmapFont",
         "metadata": "",
         "name": "basis33.ttf",
@@ -452,7 +452,7 @@
         }
       },
       {
-        "file": "assets/8bitrus.fnt",
+        "file": "assets/8bitrus2.fnt",
         "kind": "bitmapFont",
         "metadata": "",
         "name": "8bitrus.fnt",
@@ -463,7 +463,7 @@
         }
       },
       {
-        "file": "assets/8bitruss.fnt",
+        "file": "assets/8bitruss2.fnt",
         "kind": "bitmapFont",
         "metadata": "",
         "name": "8bitruss.fnt",
@@ -474,7 +474,7 @@
         }
       },
       {
-        "file": "assets/8bitruss.png",
+        "file": "assets/8bitruss2.png",
         "kind": "image",
         "metadata": "",
         "name": "8bitruss.png",
@@ -486,7 +486,7 @@
         }
       },
       {
-        "file": "assets/Kenney Pixel Square.ttf",
+        "file": "assets/Kenney Pixel Square2.ttf",
         "kind": "font",
         "metadata": "",
         "name": "1bee9bddf3765d016ea29c21d418cdb0e958d1cd9c0aaa8743f9e174cb486e71_Kenney Pixel Square.ttf",
@@ -497,7 +497,7 @@
         }
       },
       {
-        "file": "assets/White Decorated Button_Hovered.png",
+        "file": "assets/White Decorated Button_Hovered2.png",
         "kind": "image",
         "metadata": "",
         "name": "White Decorated Button_Hovered.png",
@@ -509,7 +509,7 @@
         }
       },
       {
-        "file": "assets/White Decorated Button_Idle.png",
+        "file": "assets/White Decorated Button_Idle2.png",
         "kind": "image",
         "metadata": "",
         "name": "White Decorated Button_Idle.png",
@@ -521,7 +521,7 @@
         }
       },
       {
-        "file": "assets/White Decorated Button_Pressed.png",
+        "file": "assets/White Decorated Button_Pressed2.png",
         "kind": "image",
         "metadata": "",
         "name": "White Decorated Button_Pressed.png",
@@ -533,7 +533,7 @@
         }
       },
       {
-        "file": "assets/ArchitectsDaughter.ttf",
+        "file": "assets/ArchitectsDaughter2.ttf",
         "kind": "font",
         "metadata": "",
         "name": "ArchitectsDaughter.ttf",
@@ -544,7 +544,7 @@
         }
       },
       {
-        "file": "assets/Red Button With Metal Frame_Hovered.png",
+        "file": "assets/Red Button With Metal Frame_Hovered2.png",
         "kind": "image",
         "metadata": "",
         "name": "Red Button With Metal Frame_Hovered.png",
@@ -556,7 +556,7 @@
         }
       },
       {
-        "file": "assets/Red Button With Metal Frame_Idle.png",
+        "file": "assets/Red Button With Metal Frame_Idle2.png",
         "kind": "image",
         "metadata": "",
         "name": "Red Button With Metal Frame_Idle.png",
@@ -568,7 +568,7 @@
         }
       },
       {
-        "file": "assets/Red Button With Metal Frame_Pressed.png",
+        "file": "assets/Red Button With Metal Frame_Pressed2.png",
         "kind": "image",
         "metadata": "",
         "name": "Red Button With Metal Frame_Pressed.png",
@@ -580,7 +580,7 @@
         }
       },
       {
-        "file": "assets/Charm-Regular.ttf",
+        "file": "assets/Charm-Regular2.ttf",
         "kind": "font",
         "metadata": "",
         "name": "Charm-Regular.ttf",
@@ -591,7 +591,7 @@
         }
       },
       {
-        "file": "assets/NewTiledSprite.png",
+        "file": "assets/NewTiledSprite2.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
         "name": "NewTiledSprite",
@@ -599,7 +599,7 @@
         "userAdded": false
       },
       {
-        "file": "assets/Transparent light joystick border.png",
+        "file": "assets/Transparent light joystick border2.png",
         "kind": "image",
         "metadata": "",
         "name": "Transparent light joystick border.png",
@@ -611,7 +611,7 @@
         }
       },
       {
-        "file": "assets/Transparent light joystick thumb.png",
+        "file": "assets/Transparent light joystick thumb2.png",
         "kind": "image",
         "metadata": "",
         "name": "Transparent light joystick thumb.png",
@@ -623,7 +623,7 @@
         }
       },
       {
-        "file": "assets/8BitOperatorPlus8Regular_Edited2.png",
+        "file": "assets/8BitOperatorPlus8Regular_Edited4.png",
         "kind": "image",
         "metadata": "",
         "name": "assets\\8BitOperatorPlus8Regular_Edited.png",
@@ -635,7 +635,7 @@
         }
       },
       {
-        "file": "assets/Small Grey Button_Hovered.png",
+        "file": "assets/Small Grey Button_Hovered2.png",
         "kind": "image",
         "metadata": "",
         "name": "assets\\Small Grey Button_Hovered.png",
@@ -647,7 +647,7 @@
         }
       },
       {
-        "file": "assets/Small Grey Button_Idle.png",
+        "file": "assets/Small Grey Button_Idle2.png",
         "kind": "image",
         "metadata": "",
         "name": "assets\\Small Grey Button_Idle.png",
@@ -659,7 +659,7 @@
         }
       },
       {
-        "file": "assets/Small Grey Button_Pressed.png",
+        "file": "assets/Small Grey Button_Pressed2.png",
         "kind": "image",
         "metadata": "",
         "name": "assets\\Small Grey Button_Pressed.png",
@@ -671,7 +671,7 @@
         }
       },
       {
-        "file": "assets/8BitOperatorPlus8Regular_Edited2.fnt",
+        "file": "assets/8BitOperatorPlus8Regular_Edited4.fnt",
         "kind": "bitmapFont",
         "metadata": "",
         "name": "assets\\8BitOperatorPlus8Regular_Edited.fnt",
@@ -682,7 +682,7 @@
         }
       },
       {
-        "file": "assets/Без имени-1.png",
+        "file": "assets/Без имени0.png",
         "kind": "image",
         "metadata": "",
         "name": "Без имени-1.png",
@@ -694,7 +694,7 @@
         }
       },
       {
-        "file": "assets/BeepBox-Song.mp3",
+        "file": "assets/BeepBox-Song2.mp3",
         "kind": "audio",
         "metadata": "",
         "name": "BeepBox-Song.mp3",
@@ -708,7 +708,7 @@
         }
       },
       {
-        "file": "assets/2.png",
+        "file": "assets/3.png",
         "kind": "image",
         "metadata": "",
         "name": "2.png",
@@ -720,7 +720,7 @@
         }
       },
       {
-        "file": "assets/1.png",
+        "file": "assets/4.png",
         "kind": "image",
         "metadata": "",
         "name": "1.png",
@@ -732,7 +732,7 @@
         }
       },
       {
-        "file": "assets/ANDROID.png",
+        "file": "assets/ANDROID2.png",
         "kind": "image",
         "metadata": "",
         "name": "ANDROID.png",
@@ -744,7 +744,7 @@
         }
       },
       {
-        "file": "assets/Play.png",
+        "file": "assets/Play2.png",
         "kind": "image",
         "metadata": "",
         "name": "Play.png",
@@ -756,7 +756,7 @@
         }
       },
       {
-        "file": "assets/Exit.png",
+        "file": "assets/Exit2.png",
         "kind": "image",
         "metadata": "",
         "name": "Exit.png",
@@ -768,7 +768,7 @@
         }
       },
       {
-        "file": "assets/Gear.png",
+        "file": "assets/Gear2.png",
         "kind": "image",
         "metadata": "",
         "name": "Gear.png",
@@ -780,7 +780,7 @@
         }
       },
       {
-        "file": "assets/1ghost.png",
+        "file": "assets/1ghost2.png",
         "kind": "image",
         "metadata": "",
         "name": "1ghost.png",
@@ -792,7 +792,7 @@
         }
       },
       {
-        "file": "assets/2ghost.png",
+        "file": "assets/2ghost2.png",
         "kind": "image",
         "metadata": "",
         "name": "2ghost.png",
@@ -804,7 +804,7 @@
         }
       },
       {
-        "file": "assets/3ghost.png",
+        "file": "assets/3ghost2.png",
         "kind": "image",
         "metadata": "",
         "name": "3ghost.png",
@@ -816,7 +816,7 @@
         }
       },
       {
-        "file": "assets/4ghost.png",
+        "file": "assets/4ghost2.png",
         "kind": "image",
         "metadata": "",
         "name": "4ghost.png",
@@ -828,7 +828,7 @@
         }
       },
       {
-        "file": "assets/basis33 — копия.ttf",
+        "file": "assets/basis33 — копия2.ttf",
         "kind": "font",
         "metadata": "",
         "name": "basis33 — копия.ttf",
@@ -839,7 +839,7 @@
         }
       },
       {
-        "file": "assets/Small Blue Button_Hovered.png",
+        "file": "assets/Small Blue Button_Hovered2.png",
         "kind": "image",
         "metadata": "",
         "name": "assets\\Small Blue Button_Hovered.png",
@@ -851,7 +851,7 @@
         }
       },
       {
-        "file": "assets/Small Blue Button_Idle.png",
+        "file": "assets/Small Blue Button_Idle2.png",
         "kind": "image",
         "metadata": "",
         "name": "assets\\Small Blue Button_Idle.png",
@@ -863,7 +863,7 @@
         }
       },
       {
-        "file": "assets/Small Blue Button_Pressed.png",
+        "file": "assets/Small Blue Button_Pressed2.png",
         "kind": "image",
         "metadata": "",
         "name": "assets\\Small Blue Button_Pressed.png",
@@ -875,15 +875,7 @@
         }
       },
       {
-        "file": "assets/девадушарада.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "девадушарада",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Small White Button_Hovered.png",
+        "file": "assets/Small White Button_Hovered2.png",
         "kind": "image",
         "metadata": "",
         "name": "assets\\Small White Button_Hovered.png",
@@ -895,7 +887,7 @@
         }
       },
       {
-        "file": "assets/Small White Button_Idle.png",
+        "file": "assets/Small White Button_Idle2.png",
         "kind": "image",
         "metadata": "",
         "name": "assets\\Small White Button_Idle.png",
@@ -907,7 +899,7 @@
         }
       },
       {
-        "file": "assets/Small White Button_Pressed.png",
+        "file": "assets/Small White Button_Pressed2.png",
         "kind": "image",
         "metadata": "",
         "name": "assets\\Small White Button_Pressed.png",
@@ -919,7 +911,7 @@
         }
       },
       {
-        "file": "assets/девадуша5.png",
+        "file": "assets/девадуша6.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "девадуша5",
@@ -927,7 +919,7 @@
         "userAdded": false
       },
       {
-        "file": "assets/девадуша7.png",
+        "file": "assets/девадуша10.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "девадуша7",
@@ -935,7 +927,7 @@
         "userAdded": false
       },
       {
-        "file": "assets/девадуша8.png",
+        "file": "assets/девадуша11.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "девадуша8",
@@ -943,7 +935,7 @@
         "userAdded": false
       },
       {
-        "file": "assets/девадуша9.png",
+        "file": "assets/девадуша12.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "девадуша9",
@@ -951,7 +943,7 @@
         "userAdded": false
       },
       {
-        "file": "assets/свет2.png",
+        "file": "assets/свет3.png",
         "kind": "image",
         "metadata": "",
         "name": "свет2.png",
@@ -963,7 +955,7 @@
         }
       },
       {
-        "file": "assets/неидисюда.png",
+        "file": "assets/неидисюда2.png",
         "kind": "image",
         "metadata": "",
         "name": "неидисюда.png",
@@ -975,7 +967,7 @@
         }
       },
       {
-        "file": "assets/Square Green Slider Border.png",
+        "file": "assets/Square Green Slider Border2.png",
         "kind": "image",
         "metadata": "",
         "name": "Square Green Slider Border.png",
@@ -987,7 +979,7 @@
         }
       },
       {
-        "file": "assets/Square Green Slider Fill Bar.png",
+        "file": "assets/Square Green Slider Fill Bar2.png",
         "kind": "image",
         "metadata": "",
         "name": "Square Green Slider Fill Bar.png",
@@ -999,7 +991,7 @@
         }
       },
       {
-        "file": "assets/Square Green Slider Thumb.png",
+        "file": "assets/Square Green Slider Thumb2.png",
         "kind": "image",
         "metadata": "",
         "name": "Square Green Slider Thumb.png",
@@ -1011,7 +1003,7 @@
         }
       },
       {
-        "file": "assets/Pause.png",
+        "file": "assets/Pause2.png",
         "kind": "image",
         "metadata": "",
         "name": "Pause.png",
@@ -1021,6 +1013,56 @@
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Lucid Icons Pack/Flat/f45f4976c0ee3316ce88723e4eb8a5591d4f85f849653486164562ca8d4159dc_Pause.png",
           "name": "Pause.png"
         }
+      },
+      {
+        "file": "assets/jg-032316-sfx-video-game-game-over-3.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "jg-032316-sfx-video-game-game-over-3.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/ebcc1050-3df5-4289-af13-537c18446982/resources/ebebfe2d3bba3abff431a8b6ea1818fff920c57dad542a40d32a4019bad5b7e0-jg-032316-sfx-video-game-game-over-3.mp3",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "file": "assets/fightscene-76761.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "fightscene-76761.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/ebcc1050-3df5-4289-af13-537c18446982/resources/ec378562f33b1b8527c6ec4a73ac8a15cf3ff06fa94141ed2750a66ddb17dc04-fightscene-76761.mp3",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "file": "assets/Blip.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Blip.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/ebcc1050-3df5-4289-af13-537c18446982/resources/252d7c8f47811e2ee7b44edf3bb4f81587e77fd0df7269605d88c83b2d5f3cb1-Blip.wav",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "file": "assets/девадушарада3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "девадушарада2",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -2655,6 +2697,10 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/settings"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/pause"
     }
   ],
   "externalEvents": [],

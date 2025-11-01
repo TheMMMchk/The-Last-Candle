@@ -1227,6 +1227,18 @@
           "parameters": [
             "TwoChoicesDialogBox"
           ]
+        },
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "Blip.wav",
+            "",
+            "",
+            ""
+          ]
         }
       ]
     },
@@ -1250,6 +1262,18 @@
           },
           "parameters": [
             "большерычагов"
+          ]
+        },
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "Blip.wav",
+            "",
+            "",
+            ""
           ]
         }
       ]
@@ -1390,6 +1414,18 @@
                     "TwoChoicesDialogBox",
                     ""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "Blip.wav",
+                    "",
+                    "",
+                    ""
+                  ]
                 }
               ]
             },
@@ -1432,6 +1468,18 @@
                   },
                   "parameters": [
                     "большерычагов",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "Blip.wav",
+                    "",
+                    "",
                     ""
                   ]
                 }
@@ -1930,10 +1978,23 @@
               "parameters": [
                 "многосвета"
               ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "Blip.wav",
+                "",
+                "",
+                ""
+              ]
             }
           ]
         },
         {
+          "folded": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -1967,7 +2028,20 @@
               "parameters": []
             }
           ],
-          "actions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "Blip.wav",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
           "events": [
             {
               "type": "BuiltinCommonInstructions::Standard",

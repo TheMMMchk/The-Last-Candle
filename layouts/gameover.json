@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.2573107902282993,
+    "zoomFactor": 0.6094491782509218,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -53,6 +53,22 @@
       "x": 151,
       "y": 762,
       "zOrder": 2,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "RedButtonWithMetalFrame2",
+      "persistentUuid": "e1579ced-4c03-47ff-bbb5-3511d8a6ac60",
+      "width": 0,
+      "x": 153,
+      "y": 842,
+      "zOrder": 3,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -129,6 +145,29 @@
         "HoveredFadeOutDuration": 0.2,
         "LabelText": "Заново?"
       }
+    },
+    {
+      "assetStoreId": "e80b6352d9f27049db858db6a22ad1351febb242a738de07155a6ac8301ea5c5",
+      "name": "RedButtonWithMetalFrame2",
+      "type": "PanelSpriteButton::PanelSpriteButton",
+      "variant": "Red Button With Metal Frame",
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
+        }
+      ],
+      "content": {
+        "LeftPadding": 0,
+        "RightPadding": 0,
+        "PressedLabelOffsetY": 2,
+        "BottomPadding": 0,
+        "TopPadding": 0,
+        "HoveredFadeOutDuration": 0.2,
+        "LabelText": "В меню"
+      }
     }
   ],
   "objectsFolderStructure": {
@@ -139,6 +178,9 @@
       },
       {
         "objectName": "RedButtonWithMetalFrame"
+      },
+      {
+        "objectName": "RedButtonWithMetalFrame2"
       }
     ]
   },
@@ -185,6 +227,33 @@
             "3",
             ""
           ]
+        },
+        {
+          "type": {
+            "value": "Tween::TweenBehavior::AddObjectPositionTween2"
+          },
+          "parameters": [
+            "RedButtonWithMetalFrame2",
+            "Tween",
+            "\"INPUT\"",
+            "151",
+            "600",
+            "\"easeInOutQuart\"",
+            "3",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "jg-032316-sfx-video-game-game-over-3.mp3",
+            "",
+            "",
+            ""
+          ]
         }
       ]
     },
@@ -209,6 +278,32 @@
           "parameters": [
             "",
             "\"level_1\"",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
+          },
+          "parameters": [
+            "RedButtonWithMetalFrame2",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Scene"
+          },
+          "parameters": [
+            "",
+            "\"main_menu\"",
             ""
           ]
         }
