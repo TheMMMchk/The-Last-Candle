@@ -24,7 +24,7 @@
     "author": "TheMMM4k",
     "windowWidth": 1280,
     "windowHeight": 720,
-    "latestCompilationDirectory": "",
+    "latestCompilationDirectory": "D:\\buildthelastcandle",
     "maxFPS": 60,
     "minFPS": 20,
     "verticalSync": false,
@@ -36,7 +36,7 @@
       "android-icon-72": "ANDROID.png",
       "android-icon-96": "ANDROID.png",
       "android-windowSplashScreenAnimatedIcon": "2.png",
-      "desktop-icon-512": "1.png",
+      "desktop-icon-512": "3.png",
       "ios-icon-100": "",
       "ios-icon-1024": "",
       "ios-icon-114": "",
@@ -1061,6 +1061,30 @@
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "девадушарада2",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/1.png2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "1.png2",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/2.png2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "2.png2",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/3.png.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "3.png",
         "smoothed": true,
         "userAdded": false
       }
