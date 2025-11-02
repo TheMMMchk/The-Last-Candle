@@ -1,13 +1,13 @@
 {
-  "b": 16,
+  "b": 0,
   "disableInputWhenNotFocused": true,
   "mangledName": "level_951",
   "name": "level_1",
-  "r": 16,
+  "r": 0,
   "standardSortMethod": true,
   "stopSoundsOnStartup": true,
   "title": "",
-  "v": 16,
+  "v": 0,
   "uiSettings": {
     "grid": false,
     "gridType": "rectangular",
@@ -531,6 +531,14 @@
           "parameters": [
             "killbox"
           ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "многосвета"
+          ]
         }
       ]
     },
@@ -858,7 +866,7 @@
           },
           "parameters": [
             "",
-            "\"settings\""
+            "\"pause\""
           ]
         }
       ]
@@ -874,6 +882,12 @@
             "многосвета",
             ""
           ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
         }
       ],
       "actions": [
@@ -1010,9 +1024,9 @@
       ]
     },
     {
-      "ambientLightColorB": 16,
-      "ambientLightColorG": 16,
-      "ambientLightColorR": 16,
+      "ambientLightColorB": 14,
+      "ambientLightColorG": 14,
+      "ambientLightColorR": 14,
       "camera3DFarPlaneDistance": 10000,
       "camera3DFieldOfView": 45,
       "camera3DNearPlaneDistance": 3,

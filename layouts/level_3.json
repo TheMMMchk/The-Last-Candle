@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.4094922784928449,
+    "zoomFactor": 0.5519163187945355,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -2001,6 +2001,12 @@
                 "многосвета",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
             }
           ],
           "actions": [
@@ -2804,6 +2810,12 @@
             "большерычагов",
             ""
           ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
         }
       ],
       "actions": [
@@ -2828,6 +2840,12 @@
             "TwoChoicesDialogBox",
             ""
           ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
         }
       ],
       "actions": [
@@ -2911,7 +2929,7 @@
           },
           "parameters": [
             "",
-            "\"settings\""
+            "\"pause\""
           ]
         }
       ]
@@ -3033,9 +3051,9 @@
       ]
     },
     {
-      "ambientLightColorB": 16,
-      "ambientLightColorG": 16,
-      "ambientLightColorR": 16,
+      "ambientLightColorB": 10,
+      "ambientLightColorG": 10,
+      "ambientLightColorR": 10,
       "camera3DFarPlaneDistance": 10000,
       "camera3DFieldOfView": 45,
       "camera3DNearPlaneDistance": 3,

@@ -2708,11 +2708,11 @@
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/layouts/gameover"
+      "referenceTo": "/layouts/win"
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/layouts/win"
+      "referenceTo": "/layouts/gameover"
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,

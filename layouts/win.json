@@ -225,10 +225,10 @@
       },
       "content": {
         "bold": false,
-        "isOutlineEnabled": false,
+        "isOutlineEnabled": true,
         "isShadowEnabled": false,
         "italic": false,
-        "outlineColor": "255;255;255",
+        "outlineColor": "0;0;0",
         "outlineThickness": 2,
         "shadowAngle": 90,
         "shadowBlurRadius": 2,
@@ -413,9 +413,9 @@
       ]
     },
     {
-      "ambientLightColorB": 155,
-      "ambientLightColorG": 155,
-      "ambientLightColorR": 155,
+      "ambientLightColorB": 119,
+      "ambientLightColorG": 119,
+      "ambientLightColorR": 119,
       "camera3DFarPlaneDistance": 10000,
       "camera3DFieldOfView": 45,
       "camera3DNearPlaneDistance": 3,
