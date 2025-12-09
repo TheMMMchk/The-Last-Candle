@@ -1,11 +1,11 @@
 {
   "b": 0,
   "disableInputWhenNotFocused": true,
-  "mangledName": "settings",
-  "name": "settings",
+  "mangledName": "save",
+  "name": "save",
   "r": 0,
   "standardSortMethod": true,
-  "stopSoundsOnStartup": false,
+  "stopSoundsOnStartup": true,
   "title": "",
   "v": 0,
   "uiSettings": {
@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.5468750000000002,
+    "zoomFactor": 0.32169117647058865,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -26,16 +26,15 @@
   "instances": [
     {
       "angle": 0,
-      "customSize": true,
-      "depth": 64,
-      "height": 24,
+      "customSize": false,
+      "height": 0,
       "keepRatio": true,
       "layer": "",
-      "name": "SquareGreenSlider",
-      "persistentUuid": "3a3e7073-af06-4ac8-949d-36db4564f800",
-      "width": 459,
-      "x": 646,
-      "y": 230,
+      "name": "RedButtonWithMetalFrame",
+      "persistentUuid": "dae6e4ee-a7bd-4067-bbb7-51915cc8079b",
+      "width": 0,
+      "x": -1100,
+      "y": 248,
       "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
@@ -43,16 +42,15 @@
     },
     {
       "angle": 0,
-      "customSize": true,
-      "depth": 4,
-      "height": 60,
+      "customSize": false,
+      "height": 0,
       "keepRatio": true,
       "layer": "",
-      "name": "NewText",
-      "persistentUuid": "c3969e91-881e-4aef-930d-84db0d45eb43",
-      "width": 296,
-      "x": 742,
-      "y": 151,
+      "name": "RedButtonWithMetalFrame2",
+      "persistentUuid": "171edf4c-88ae-4818-abbd-b910b54a1da7",
+      "width": 0,
+      "x": 1400,
+      "y": 359,
       "zOrder": 2,
       "numberProperties": [],
       "stringProperties": [],
@@ -61,15 +59,15 @@
     {
       "angle": 0,
       "customSize": true,
-      "depth": 140,
-      "height": 105,
+      "depth": 64,
+      "height": 55,
       "keepRatio": true,
       "layer": "",
-      "name": "SmallWhiteButton",
-      "persistentUuid": "ee2ef550-5132-4139-baa0-e1d30b7971b4",
-      "width": 280,
-      "x": 42,
-      "y": 584,
+      "name": "SmallWhiteButton2",
+      "persistentUuid": "892b89d0-563f-436a-a1e0-aeb1530599aa",
+      "width": 1286,
+      "x": -3,
+      "y": 724,
       "zOrder": 3,
       "numberProperties": [],
       "stringProperties": [],
@@ -77,16 +75,15 @@
     },
     {
       "angle": 0,
-      "customSize": true,
-      "depth": 64,
-      "height": 103,
+      "customSize": false,
+      "height": 0,
       "keepRatio": true,
       "layer": "",
-      "name": "SmallWhiteButton2",
-      "persistentUuid": "f67bcece-1196-4485-b0a3-1a921432d7d5",
-      "width": 305,
-      "x": 944,
-      "y": 588,
+      "name": "NewText",
+      "persistentUuid": "50b1ae9b-c311-465a-a46d-6f9eb6b6ffb3",
+      "width": 0,
+      "x": 397,
+      "y": -60,
       "zOrder": 4,
       "numberProperties": [],
       "stringProperties": [],
@@ -95,20 +92,67 @@
   ],
   "objects": [
     {
-      "assetStoreId": "84dcf81d35efee74a6cab51b4103acc5443e7f39fd7366e2ac58641e60323b4a",
-      "name": "SquareGreenSlider",
-      "type": "PanelSpriteSlider::PanelSpriteSlider",
-      "variant": "Square Green Slider",
+      "assetStoreId": "e80b6352d9f27049db858db6a22ad1351febb242a738de07155a6ac8301ea5c5",
+      "name": "RedButtonWithMetalFrame",
+      "type": "PanelSpriteButton::PanelSpriteButton",
+      "variant": "Red Button With Metal Frame",
       "variables": [],
       "effects": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
+        }
+      ],
       "content": {
-        "BarTopPadding": 3,
-        "BarLeftPadding": 3,
-        "BarRightPadding": 3,
-        "BarBottomPadding": 4,
-        "LabelMargin": 4,
-        "InitialValue": 100
+        "LeftPadding": 0,
+        "RightPadding": 0,
+        "PressedLabelOffsetY": 2,
+        "BottomPadding": 0,
+        "TopPadding": 0,
+        "HoveredFadeOutDuration": 0.2,
+        "LabelText": "Новая игра"
+      }
+    },
+    {
+      "assetStoreId": "e80b6352d9f27049db858db6a22ad1351febb242a738de07155a6ac8301ea5c5",
+      "name": "RedButtonWithMetalFrame2",
+      "type": "PanelSpriteButton::PanelSpriteButton",
+      "variant": "Red Button With Metal Frame",
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
+        }
+      ],
+      "content": {
+        "LeftPadding": 0,
+        "RightPadding": 0,
+        "PressedLabelOffsetY": 2,
+        "BottomPadding": 0,
+        "TopPadding": 0,
+        "HoveredFadeOutDuration": 0.2,
+        "LabelText": "Продолжить"
+      }
+    },
+    {
+      "assetStoreId": "53d0c4f44a79a8c1651b3aafa9df6064d459255607d04801535a2ba551e6e963",
+      "name": "SmallWhiteButton2",
+      "type": "PanelSpriteButton::PanelSpriteButton",
+      "variant": "Red Button With Metal Frame",
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
+        }
+      ],
+      "content": {
+        "LabelText": "Сбросить сохранения",
+        "PressedLabelOffsetY": 2
       }
     },
     {
@@ -121,11 +165,16 @@
       "underlined": false,
       "variables": [],
       "effects": [],
-      "behaviors": [],
-      "string": "Громкость",
+      "behaviors": [
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
+        }
+      ],
+      "string": "Сохранение отсутствует",
       "font": "basis33 — копия.ttf",
       "textAlignment": "left",
-      "characterSize": 75,
+      "characterSize": 55,
       "color": {
         "b": 255,
         "g": 255,
@@ -145,39 +194,13 @@
         "shadowOpacity": 127,
         "smoothed": true,
         "underlined": false,
-        "text": "Громкость",
+        "text": "Сохранение отсутствует",
         "font": "basis33 — копия.ttf",
         "textAlignment": "left",
         "verticalTextAlignment": "top",
-        "characterSize": 75,
+        "characterSize": 55,
         "lineHeight": 0,
         "color": "255;255;255"
-      }
-    },
-    {
-      "assetStoreId": "53d0c4f44a79a8c1651b3aafa9df6064d459255607d04801535a2ba551e6e963",
-      "name": "SmallWhiteButton",
-      "type": "PanelSpriteButton::PanelSpriteButton",
-      "variant": "Small White Button2",
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "content": {
-        "LabelText": "Назад",
-        "PressedLabelOffsetY": 2
-      }
-    },
-    {
-      "assetStoreId": "53d0c4f44a79a8c1651b3aafa9df6064d459255607d04801535a2ba551e6e963",
-      "name": "SmallWhiteButton2",
-      "type": "PanelSpriteButton::PanelSpriteButton",
-      "variant": "Small White Button2",
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "content": {
-        "LabelText": "Сбросить сохранения",
-        "PressedLabelOffsetY": 2
       }
     }
   ],
@@ -185,16 +208,16 @@
     "folderName": "__ROOT",
     "children": [
       {
-        "objectName": "SquareGreenSlider"
+        "objectName": "RedButtonWithMetalFrame"
       },
       {
-        "objectName": "NewText"
-      },
-      {
-        "objectName": "SmallWhiteButton"
+        "objectName": "RedButtonWithMetalFrame2"
       },
       {
         "objectName": "SmallWhiteButton2"
+      },
+      {
+        "objectName": "NewText"
       }
     ]
   },
@@ -207,7 +230,7 @@
             "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
           },
           "parameters": [
-            "SmallWhiteButton",
+            "RedButtonWithMetalFrame",
             ""
           ]
         }
@@ -215,9 +238,23 @@
       "actions": [
         {
           "type": {
-            "value": "PopScene"
+            "value": "Scene"
           },
           "parameters": [
+            "",
+            "\"0\"",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "PlayMusic"
+          },
+          "parameters": [
+            "",
+            "kevin-macleod-horizon.mp3",
+            "",
+            "",
             ""
           ]
         }
@@ -250,16 +287,58 @@
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [],
+      "conditions": [
+        {
+          "type": {
+            "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
+          },
+          "parameters": [
+            "RedButtonWithMetalFrame2",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "GroupExists"
+          },
+          "parameters": [
+            "\"save1\"",
+            "\"saving\""
+          ]
+        }
+      ],
       "actions": [
         {
           "type": {
-            "value": "ModGlobalVolume"
+            "value": "ReadNumberFromStorage"
           },
           "parameters": [
-            "SquareGreenSlider",
-            "=",
-            "SquareGreenSlider.Value()"
+            "\"save1\"",
+            "\"saving\"",
+            "",
+            "levels"
+          ]
+        },
+        {
+          "type": {
+            "value": "Scene"
+          },
+          "parameters": [
+            "",
+            "levels",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "PlayMusic"
+          },
+          "parameters": [
+            "",
+            "kevin-macleod-horizon.mp3",
+            "",
+            "",
+            ""
           ]
         }
       ]
@@ -269,30 +348,115 @@
       "conditions": [
         {
           "type": {
-            "value": "PanelSpriteSlider::PanelSpriteSlider::IsBeingDragged"
+            "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
           },
           "parameters": [
-            "SquareGreenSlider",
+            "RedButtonWithMetalFrame2",
             ""
           ]
         },
         {
           "type": {
-            "value": "BuiltinCommonInstructions::Once"
+            "inverted": true,
+            "value": "GroupExists"
           },
-          "parameters": []
+          "parameters": [
+            "\"save1\"",
+            "\"saving\""
+          ]
         }
       ],
       "actions": [
         {
           "type": {
-            "value": "PlaySound"
+            "value": "Tween::TweenBehavior::AddObjectPositionYTween2"
           },
           "parameters": [
-            "",
-            "Blip.wav",
-            "",
-            "",
+            "NewText",
+            "Tween",
+            "\"1\"",
+            "24",
+            "\"easeInOutQuart\"",
+            "1",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Wait"
+          },
+          "parameters": [
+            "1.5"
+          ]
+        },
+        {
+          "type": {
+            "value": "Tween::TweenBehavior::AddObjectPositionYTween2"
+          },
+          "parameters": [
+            "NewText",
+            "Tween",
+            "\"1\"",
+            "-60",
+            "\"easeInOutQuart\"",
+            "1",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "DepartScene"
+          },
+          "parameters": [
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Tween::TweenBehavior::AddObjectPositionXTween2"
+          },
+          "parameters": [
+            "RedButtonWithMetalFrame",
+            "Tween",
+            "\"1\"",
+            "150",
+            "\"swingTo\"",
+            "2",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Tween::TweenBehavior::AddObjectPositionXTween2"
+          },
+          "parameters": [
+            "RedButtonWithMetalFrame2",
+            "Tween",
+            "\"1\"",
+            "150",
+            "\"swingTo\"",
+            "2",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Tween::TweenBehavior::AddObjectPositionYTween2"
+          },
+          "parameters": [
+            "SmallWhiteButton2",
+            "Tween",
+            "\"1\"",
+            "665",
+            "\"swingTo\"",
+            "2",
             ""
           ]
         }
@@ -308,7 +472,6 @@
       "camera3DFieldOfView": 45,
       "camera3DNearPlaneDistance": 3,
       "cameraType": "",
-      "defaultCameraBehavior": "do-nothing",
       "followBaseLayerCamera": false,
       "isLightingLayer": false,
       "isLocked": false,
@@ -426,6 +589,10 @@
     {
       "name": "Text",
       "type": "TextContainerCapability::TextContainerBehavior"
+    },
+    {
+      "name": "Tween",
+      "type": "Tween::TweenBehavior"
     }
   ]
 }

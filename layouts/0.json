@@ -1,11 +1,11 @@
 {
   "b": 0,
   "disableInputWhenNotFocused": true,
-  "mangledName": "level_951",
-  "name": "level_1",
+  "mangledName": "_48",
+  "name": "0",
   "r": 0,
   "standardSortMethod": true,
-  "stopSoundsOnStartup": true,
+  "stopSoundsOnStartup": false,
   "title": "",
   "v": 0,
   "uiSettings": {
@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.6461154847218554,
+    "zoomFactor": 0.9943743154929555,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -504,18 +504,6 @@
         },
         {
           "type": {
-            "value": "PlaySound"
-          },
-          "parameters": [
-            "",
-            "kevin-macleod-horizon.mp3",
-            "yes",
-            "70",
-            "1"
-          ]
-        },
-        {
-          "type": {
             "value": "SetNumberVariable"
           },
           "parameters": [
@@ -743,8 +731,28 @@
           },
           "parameters": [
             "",
-            "\"level_2\"",
+            "\"1\"",
             ""
+          ]
+        },
+        {
+          "type": {
+            "value": "SetNumberVariable"
+          },
+          "parameters": [
+            "levels",
+            "+",
+            "1"
+          ]
+        },
+        {
+          "type": {
+            "value": "EcrireFichierExp"
+          },
+          "parameters": [
+            "\"save1\"",
+            "\"saving\"",
+            "levels"
           ]
         }
       ]

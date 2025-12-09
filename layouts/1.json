@@ -1,8 +1,8 @@
 {
   "b": 0,
   "disableInputWhenNotFocused": true,
-  "mangledName": "level_952",
-  "name": "level_2",
+  "mangledName": "_49",
+  "name": "1",
   "r": 0,
   "standardSortMethod": true,
   "stopSoundsOnStartup": false,
@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.6572235920741534,
+    "zoomFactor": 1.154955160510203,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -1378,7 +1378,7 @@
                   },
                   "parameters": [
                     "",
-                    "\"level_3\"",
+                    "\"2\"",
                     ""
                   ]
                 }
@@ -1956,11 +1956,31 @@
               "actions": [
                 {
                   "type": {
+                    "value": "EcrireFichierExp"
+                  },
+                  "parameters": [
+                    "\"save1\"",
+                    "\"saving\"",
+                    "levels"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "levels",
+                    "+",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
                     "value": "Scene"
                   },
                   "parameters": [
                     "",
-                    "\"level_3\"",
+                    "\"2\"",
                     ""
                   ]
                 }
@@ -2451,7 +2471,7 @@
                   },
                   "parameters": [
                     "",
-                    "\"level_2\"",
+                    "\"1\"",
                     ""
                   ]
                 }
@@ -2975,6 +2995,54 @@
             "player",
             "Flippable",
             "yes"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "CollisionNP"
+          },
+          "parameters": [
+            "player",
+            "thesave",
+            "",
+            "",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Delete"
+          },
+          "parameters": [
+            "thesave",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "SetNumberVariable"
+          },
+          "parameters": [
+            "levels",
+            "+",
+            "1"
+          ]
+        },
+        {
+          "type": {
+            "value": "EcrireFichierExp"
+          },
+          "parameters": [
+            "\"save1\"",
+            "\"saving\"",
+            "levels"
           ]
         }
       ]

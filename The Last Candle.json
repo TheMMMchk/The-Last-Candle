@@ -1,5 +1,5 @@
 {
-  "firstLayout": "",
+  "firstLayout": "main_menu",
   "gdVersion": {
     "build": 242,
     "major": 5,
@@ -18,7 +18,7 @@
     "scaleMode": "linear",
     "sizeOnStartupMode": "",
     "templateSlug": "",
-    "version": "1.1.1",
+    "version": "2.0.0",
     "name": "The Last Candle",
     "description": "Когда тьма поглощает всё, остаётся лишь свет свечи.\n\nТы — призрак, затерявшийся в стенах древнего замка.\nУ тебя осталась только одна свеча — твой единственный путь к свободе.\nНо свет тает с каждой секундой...\n\nThe Last Candle — короткая атмосферная инди-игра, созданная за 7 дней для EasyJam.\n\nЗдесь время — это свет. Каждый миг, каждое движение, каждое столкновение с тенью уносит часть свечи.\n\n🔦 Исследуй старый замок.\n⚙️ Решай простые загадки.\n👁️ Избегай теней, что тянутся к твоему свету.\n🚪 Найди выход — или останься навечно во тьме.\n\n🕯️ Последняя свеча горит. Что ты выберешь: страх или надежду?\n<p>Здесь время &mdash; это свет. Каждый миг, каждое движение, каждое столкновение с тенью уносит часть свечи.\n </p>\n<p>🔦 Исследуй старый замок.<br> ⚙️ Решай простые загадки.<br> 👁️ Избегай теней, что тянутся к твоему свету.<br> 🚪 Найди выход &mdash; или останься навечно во тьме.\n </p>\n<p>🕯️ <strong>Последняя свеча горит. Что ты выберешь: страх или надежду?</strong>\n</p>",
     "author": "TheMMM4k",
@@ -720,18 +720,6 @@
         }
       },
       {
-        "file": "assets/4.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "1.png",
-        "smoothed": true,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://project-resources.gdevelop.io/ebcc1050-3df5-4289-af13-537c18446982/resources/e8934d7fe192c1a15adad9133b11f6f7cfcc1c146581ae8922f46d7ef19430f8-1.png",
-          "name": "cloud-project-resource"
-        }
-      },
-      {
         "file": "assets/ANDROID2.png",
         "kind": "image",
         "metadata": "",
@@ -777,54 +765,6 @@
         "origin": {
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Lucid Icons Pack/Flat/83b54372fcb1f871e978cd05ad7fc74bd1e53df70e44dfbc3a804ba2bfdfeff8_Gear.png",
           "name": "Gear.png"
-        }
-      },
-      {
-        "file": "assets/1ghost2.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "1ghost.png",
-        "smoothed": true,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://project-resources.gdevelop.io/ebcc1050-3df5-4289-af13-537c18446982/resources/9e580c6b21a911b133354d5d780b70a6c90bc6f16f30701a3eca9f3e32bc7b66-1ghost.png",
-          "name": "cloud-project-resource"
-        }
-      },
-      {
-        "file": "assets/2ghost2.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "2ghost.png",
-        "smoothed": true,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://project-resources.gdevelop.io/ebcc1050-3df5-4289-af13-537c18446982/resources/0ec161e7ca70f59c6ea7f7814de1df94c737c20bda981a2956f8eafb737dd667-2ghost.png",
-          "name": "cloud-project-resource"
-        }
-      },
-      {
-        "file": "assets/3ghost2.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "3ghost.png",
-        "smoothed": true,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://project-resources.gdevelop.io/ebcc1050-3df5-4289-af13-537c18446982/resources/9e580c6b21a911b133354d5d780b70a6c90bc6f16f30701a3eca9f3e32bc7b66-3ghost.png",
-          "name": "cloud-project-resource"
-        }
-      },
-      {
-        "file": "assets/4ghost2.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "4ghost.png",
-        "smoothed": true,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://project-resources.gdevelop.io/ebcc1050-3df5-4289-af13-537c18446982/resources/355ca7630f284c844570415c6e2ff67cee95b9770a0dced6b1bff325307ebb80-4ghost.png",
-          "name": "cloud-project-resource"
         }
       },
       {
@@ -1065,26 +1005,50 @@
         "userAdded": false
       },
       {
-        "file": "assets/1.png2.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
-        "name": "1.png2",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "assets/2.png2.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
-        "name": "2.png2",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
         "file": "assets/3.png.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
         "name": "3.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/ghost5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "ghost5",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/ghost6.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "ghost6",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/ghost7.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "ghost7",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/ghost8.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "ghost8",
         "smoothed": true,
         "userAdded": false
       }
@@ -1156,11 +1120,12 @@
           "directions": [
             {
               "looping": true,
+              "metadata": "{\"pskl\":{}}",
               "timeBetweenFrames": 0.3333333333333333,
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "1ghost.png",
+                  "image": "ghost5",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1176,27 +1141,27 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 7,
-                        "y": 6
+                        "x": 28,
+                        "y": 24
                       },
                       {
-                        "x": 27,
-                        "y": 6
+                        "x": 108,
+                        "y": 24
                       },
                       {
-                        "x": 27,
-                        "y": 30
+                        "x": 108,
+                        "y": 120
                       },
                       {
-                        "x": 7,
-                        "y": 30
+                        "x": 28,
+                        "y": 120
                       }
                     ]
                   ]
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "2ghost.png",
+                  "image": "ghost6",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1212,27 +1177,27 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 7,
-                        "y": 6
+                        "x": 28,
+                        "y": 24
                       },
                       {
-                        "x": 27,
-                        "y": 6
+                        "x": 108,
+                        "y": 24
                       },
                       {
-                        "x": 27,
-                        "y": 30
+                        "x": 108,
+                        "y": 120
                       },
                       {
-                        "x": 7,
-                        "y": 30
+                        "x": 28,
+                        "y": 120
                       }
                     ]
                   ]
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "3ghost.png",
+                  "image": "ghost7",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1248,27 +1213,27 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 7,
-                        "y": 6
+                        "x": 28,
+                        "y": 24
                       },
                       {
-                        "x": 27,
-                        "y": 6
+                        "x": 108,
+                        "y": 24
                       },
                       {
-                        "x": 27,
-                        "y": 30
+                        "x": 108,
+                        "y": 120
                       },
                       {
-                        "x": 7,
-                        "y": 30
+                        "x": 28,
+                        "y": 120
                       }
                     ]
                   ]
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "4ghost.png",
+                  "image": "ghost8",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1284,20 +1249,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 7,
-                        "y": 6
+                        "x": 28,
+                        "y": 24
                       },
                       {
-                        "x": 27,
-                        "y": 6
+                        "x": 108,
+                        "y": 24
                       },
                       {
-                        "x": 27,
-                        "y": 30
+                        "x": 108,
+                        "y": 120
                       },
                       {
-                        "x": 7,
-                        "y": 30
+                        "x": 28,
+                        "y": 120
                       }
                     ]
                   ]
@@ -2632,6 +2597,67 @@
           ]
         }
       ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "thesave",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "NewSprite",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 3,
+                        "y": 3
+                      },
+                      {
+                        "x": 63,
+                        "y": 3
+                      },
+                      {
+                        "x": 63,
+                        "y": 49
+                      },
+                      {
+                        "x": 3,
+                        "y": 49
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -2677,6 +2703,9 @@
         "objectName": "TransparentLightJoystick"
       },
       {
+        "objectName": "thesave"
+      },
+      {
         "objectName": "Pause"
       }
     ]
@@ -2687,6 +2716,11 @@
       "name": "candle_time",
       "type": "number",
       "value": 60
+    },
+    {
+      "name": "levels",
+      "type": "number",
+      "value": 0
     }
   ],
   "layouts": [
@@ -2696,15 +2730,19 @@
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/layouts/level_1"
+      "referenceTo": "/layouts/0"
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/layouts/level_2"
+      "referenceTo": "/layouts/1"
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/layouts/level_3"
+      "referenceTo": "/layouts/2"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/3"
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
@@ -2725,6 +2763,10 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/pause"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/save"
     }
   ],
   "externalEvents": [],
