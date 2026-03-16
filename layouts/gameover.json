@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.6094491782509218,
+    "zoomFactor": 0.35849951661818963,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -304,6 +304,43 @@
           "parameters": [
             "",
             "\"main_menu\"",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "DepartScene"
+          },
+          "parameters": [
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "PanelSpriteButton::PanelSpriteButton::SetLabelTextOp"
+          },
+          "parameters": [
+            "RedButtonWithMetalFrame",
+            "=",
+            "GlobalVariableString(Lang[GlobalVariableString(CurrentLang)].again)",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "PanelSpriteButton::PanelSpriteButton::SetLabelTextOp"
+          },
+          "parameters": [
+            "RedButtonWithMetalFrame2",
+            "=",
+            "GlobalVariableString(Lang[GlobalVariableString(CurrentLang)].to_menu)",
             ""
           ]
         }

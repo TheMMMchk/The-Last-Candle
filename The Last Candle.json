@@ -12,13 +12,13 @@
     "antialisingEnabledOnMobile": false,
     "folderProject": true,
     "orientation": "landscape",
-    "packageName": "com.pixelwarriors.thelastcandle",
+    "packageName": "com.themmm4k.thelastcandle",
     "pixelsRounding": false,
     "projectUuid": "4e61863f-c76c-4e96-8e3c-257666715620",
     "scaleMode": "linear",
     "sizeOnStartupMode": "",
     "templateSlug": "",
-    "version": "2.0.0",
+    "version": "2.1.0",
     "name": "The Last Candle",
     "description": "Когда тьма поглощает всё, остаётся лишь свет свечи.\n\nТы — призрак, затерявшийся в стенах древнего замка.\nУ тебя осталась только одна свеча — твой единственный путь к свободе.\nНо свет тает с каждой секундой...\n\nThe Last Candle — короткая атмосферная инди-игра, созданная за 7 дней для EasyJam.\n\nЗдесь время — это свет. Каждый миг, каждое движение, каждое столкновение с тенью уносит часть свечи.\n\n🔦 Исследуй старый замок.\n⚙️ Решай простые загадки.\n👁️ Избегай теней, что тянутся к твоему свету.\n🚪 Найди выход — или останься навечно во тьме.\n\n🕯️ Последняя свеча горит. Что ты выберешь: страх или надежду?\n<p>Здесь время &mdash; это свет. Каждый миг, каждое движение, каждое столкновение с тенью уносит часть свечи.\n </p>\n<p>🔦 Исследуй старый замок.<br> ⚙️ Решай простые загадки.<br> 👁️ Избегай теней, что тянутся к твоему свету.<br> 🚪 Найди выход &mdash; или останься навечно во тьме.\n </p>\n<p>🕯️ <strong>Последняя свеча горит. Что ты выберешь: страх или надежду?</strong>\n</p>",
     "author": "TheMMM4k",
@@ -438,28 +438,6 @@
         "origin": {
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Dialog Boxes/6b410f07a3a02e721a49d41795e84b56707ef28ac4d095d55f1fd1093760e134_8BitOperatorPlus8Regular_Edited.fnt",
           "name": "8BitOperatorPlus8Regular_Edited.fnt"
-        }
-      },
-      {
-        "file": "assets/basis34.ttf",
-        "kind": "bitmapFont",
-        "metadata": "",
-        "name": "basis33.ttf",
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://project-resources.gdevelop.io/ebcc1050-3df5-4289-af13-537c18446982/resources/050d2c2cc0e01106af2a2f74d5e3899ebb709ab6ceb58b23fa1e4d27103cb8fb-basis33.ttf",
-          "name": "cloud-project-resource"
-        }
-      },
-      {
-        "file": "assets/8bitrus2.fnt",
-        "kind": "bitmapFont",
-        "metadata": "",
-        "name": "8bitrus.fnt",
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://project-resources.gdevelop.io/ebcc1050-3df5-4289-af13-537c18446982/resources/3546a6bdf491bb993308a8565f900d0b01b837c942fab973916aebea951aaeef-8bitrus.fnt",
-          "name": "cloud-project-resource"
         }
       },
       {
@@ -1049,6 +1027,46 @@
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "ghost8",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/United Kingdom.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "United Kingdom.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel flags/Europe/21204bb8e1da9baa4ae64ba52e4623f3831df585adf20cd9014a9a296960a6e2_United Kingdom.png",
+          "name": "United Kingdom.png"
+        }
+      },
+      {
+        "file": "assets/Russia.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Russia.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel flags/Europe/4d4e79b7994e3fd1e99c226d800e3de797710cddef5080047a206b4723179a29_Russia.png",
+          "name": "Russia.png"
+        }
+      },
+      {
+        "file": "entutorial2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "entutorial2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/EN.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "EN",
         "smoothed": true,
         "userAdded": false
       }
@@ -2721,6 +2739,159 @@
       "name": "levels",
       "type": "number",
       "value": 0
+    },
+    {
+      "name": "CurrentLang",
+      "type": "string",
+      "value": "EN"
+    },
+    {
+      "name": "Lang",
+      "type": "structure",
+      "children": [
+        {
+          "name": "EN",
+          "type": "structure",
+          "children": [
+            {
+              "name": "again",
+              "type": "string",
+              "value": "Again?"
+            },
+            {
+              "name": "authors",
+              "type": "string",
+              "value": "Created by Matvey (TheMMM4k) \nCreated for Easyjam \nSpecial thanks to Easycode for hosting Easyjam  \n\nExtra thanks to Rostislav and all teachers  \n\nMusic - Kevin Macleod - Horizon"
+            },
+            {
+              "name": "back",
+              "type": "string",
+              "value": "Back"
+            },
+            {
+              "name": "continue",
+              "type": "string",
+              "value": "Continue"
+            },
+            {
+              "name": "delete_save",
+              "type": "string",
+              "value": "Delete save"
+            },
+            {
+              "name": "levers_none",
+              "type": "string",
+              "value": "I must activate all the levers..."
+            },
+            {
+              "name": "levers_notenough",
+              "type": "string",
+              "value": "Not all levers are activated yet... Need more..."
+            },
+            {
+              "name": "many_light",
+              "type": "string",
+              "value": "I have enough light"
+            },
+            {
+              "name": "new_game",
+              "type": "string",
+              "value": "New game"
+            },
+            {
+              "name": "save_not_found",
+              "type": "string",
+              "value": "Save not found"
+            },
+            {
+              "name": "to_menu",
+              "type": "string",
+              "value": "Main menu"
+            },
+            {
+              "name": "volume",
+              "type": "string",
+              "value": "Volume"
+            },
+            {
+              "name": "win",
+              "type": "string",
+              "value": "You escaped!"
+            }
+          ]
+        },
+        {
+          "name": "RU",
+          "type": "structure",
+          "children": [
+            {
+              "name": "again",
+              "type": "string",
+              "value": "Заново?"
+            },
+            {
+              "name": "authors",
+              "type": "string",
+              "value": "Создал - Матвей (TheMMM4k) \nСоздано для Easyjam \n\nСпасибо Easycode за проведение Easyjam  \nОтдельное спасибо Ростиславу и всем учителям  \n\nМузыка - Kevin Macleod - Horizon"
+            },
+            {
+              "name": "back",
+              "type": "string",
+              "value": "Назад"
+            },
+            {
+              "name": "continue",
+              "type": "string",
+              "value": "Продолжить"
+            },
+            {
+              "name": "delete_save",
+              "type": "string",
+              "value": "Сбросить сохранение"
+            },
+            {
+              "name": "levers_none",
+              "type": "string",
+              "value": "Нужно активировать все рычаги..."
+            },
+            {
+              "name": "levers_notenough",
+              "type": "string",
+              "value": "Ещё не все рычаги активированы... Нужно больше..."
+            },
+            {
+              "name": "many_light",
+              "type": "string",
+              "value": "У меня достаточно света"
+            },
+            {
+              "name": "new_game",
+              "type": "string",
+              "value": "Новая игра"
+            },
+            {
+              "name": "save_not_found",
+              "type": "string",
+              "value": "Сохранение отсутствует"
+            },
+            {
+              "name": "to_menu",
+              "type": "string",
+              "value": "В меню"
+            },
+            {
+              "name": "volume",
+              "type": "string",
+              "value": "Громкость"
+            },
+            {
+              "name": "win",
+              "type": "string",
+              "value": "Ты сбежал!"
+            }
+          ]
+        }
+      ]
     }
   ],
   "layouts": [
@@ -2767,6 +2938,10 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/save"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/language"
     }
   ],
   "externalEvents": [],

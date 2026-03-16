@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.6734286374959859,
+    "zoomFactor": 0.45232947634117693,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -1727,7 +1727,7 @@
       "behaviors": [],
       "animations": [
         {
-          "name": "",
+          "name": "RU",
           "useMultipleDirections": false,
           "directions": [
             {
@@ -1737,6 +1737,55 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "неидисюда.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 2,
+                        "y": 2
+                      },
+                      {
+                        "x": 62,
+                        "y": 2
+                      },
+                      {
+                        "x": 62,
+                        "y": 64
+                      },
+                      {
+                        "x": 2,
+                        "y": 64
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "EN",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "EN",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2458,6 +2507,69 @@
               "parameters": [
                 "TwoChoicesDialogBox"
               ]
+            },
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "TwoChoicesDialogBox",
+                "Text",
+                "=",
+                "GlobalVariableString(Lang[GlobalVariableString(CurrentLang)].levers_none)"
+              ]
+            },
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "многосвета",
+                "Text",
+                "=",
+                "GlobalVariableString(Lang[GlobalVariableString(CurrentLang)].many_light)"
+              ]
+            },
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "большерычагов",
+                "Text",
+                "=",
+                "GlobalVariableString(Lang[GlobalVariableString(CurrentLang)].levers_notenough)"
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "StringVariable"
+                  },
+                  "parameters": [
+                    "CurrentLang",
+                    "=",
+                    "\"EN\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "NewSprite",
+                    "Animation",
+                    "=",
+                    "\"EN\""
+                  ]
+                }
+              ]
             }
           ]
         },
@@ -2611,6 +2723,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "levers",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",

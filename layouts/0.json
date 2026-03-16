@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.9943743154929555,
+    "zoomFactor": 0.6679027121366305,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -327,7 +327,7 @@
       "behaviors": [],
       "animations": [
         {
-          "name": "",
+          "name": "RU",
           "useMultipleDirections": false,
           "directions": [
             {
@@ -337,6 +337,54 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "свет2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 59
+                      },
+                      {
+                        "x": 178,
+                        "y": 59
+                      },
+                      {
+                        "x": 178,
+                        "y": 184
+                      },
+                      {
+                        "x": 0,
+                        "y": 184
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "EN",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "entutorial2.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -526,6 +574,47 @@
           },
           "parameters": [
             "многосвета"
+          ]
+        },
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+          },
+          "parameters": [
+            "многосвета",
+            "Text",
+            "=",
+            "GlobalVariableString(Lang[GlobalVariableString(CurrentLang)].many_light)"
+          ]
+        }
+      ],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "StringVariable"
+              },
+              "parameters": [
+                "CurrentLang",
+                "=",
+                "\"EN\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+              },
+              "parameters": [
+                "tutorial_text",
+                "Animation",
+                "=",
+                "1"
+              ]
+            }
           ]
         }
       ]

@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.4481978045410365,
+    "zoomFactor": 0.49508400737488983,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -208,6 +208,23 @@
       "x": 458,
       "y": 318,
       "zOrder": 9,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 64,
+      "height": 48,
+      "keepRatio": true,
+      "layer": "ui",
+      "name": "SmallWhiteButton",
+      "persistentUuid": "f16fc53e-b289-47f0-a919-b004f57aeafd",
+      "width": 298,
+      "x": 968,
+      "y": 8,
+      "zOrder": 11,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -493,6 +510,19 @@
         "lineHeight": 0,
         "color": "255;255;255"
       }
+    },
+    {
+      "assetStoreId": "53d0c4f44a79a8c1651b3aafa9df6064d459255607d04801535a2ba551e6e963",
+      "name": "SmallWhiteButton",
+      "type": "PanelSpriteButton::PanelSpriteButton",
+      "variant": "Small White Button2",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "LabelText": "Language/Язык",
+        "PressedLabelOffsetY": 2
+      }
     }
   ],
   "objectsFolderStructure": {
@@ -515,6 +545,9 @@
       },
       {
         "objectName": "NewText2"
+      },
+      {
+        "objectName": "SmallWhiteButton"
       }
     ]
   },
@@ -574,6 +607,62 @@
             "player",
             "PlatformerObject",
             "yes"
+          ]
+        }
+      ],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "GroupExists"
+              },
+              "parameters": [
+                "\"language\"",
+                "\"language\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ReadNumberFromStorage"
+              },
+              "parameters": [
+                "\"language\"",
+                "\"language\"",
+                "",
+                "CurrentLang"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "GroupExists"
+              },
+              "parameters": [
+                "\"language\"",
+                "\"language\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"language\"",
+                ""
+              ]
+            }
           ]
         }
       ]
@@ -682,6 +771,32 @@
           "parameters": [
             "",
             "\"settings\""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "PanelSpriteButton::PanelSpriteButton::IsPressed"
+          },
+          "parameters": [
+            "SmallWhiteButton",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Scene"
+          },
+          "parameters": [
+            "",
+            "\"language\"",
+            ""
           ]
         }
       ]

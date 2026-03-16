@@ -71,7 +71,7 @@
       "variables": [],
       "effects": [],
       "behaviors": [],
-      "string": "Создал - Емельянов Матвей (TheMMM4k)\nСоздано для Easyjam\nСпасибо Easycode за проведение Easyjam\n\nОтдельное спасибо Ростиславу и всем учителям\n\nМузыка - Kevin Macleod - Horizon\n",
+      "string": "Создал - Матвей (TheMMM4k)\nСоздано для Easyjam\nСпасибо Easycode за проведение Easyjam\n\nОтдельное спасибо Ростиславу и всем учителям\n\nМузыка - Kevin Macleod - Horizon\n",
       "font": "basis33 — копия.ttf",
       "textAlignment": "center",
       "characterSize": 65,
@@ -94,7 +94,7 @@
         "shadowOpacity": 127,
         "smoothed": true,
         "underlined": false,
-        "text": "Создал - Емельянов Матвей (TheMMM4k)\nСоздано для Easyjam\nСпасибо Easycode за проведение Easyjam\n\nОтдельное спасибо Ростиславу и всем учителям\n\nМузыка - Kevin Macleod - Horizon\n",
+        "text": "Создал - Матвей (TheMMM4k)\nСоздано для Easyjam\nСпасибо Easycode за проведение Easyjam\n\nОтдельное спасибо Ростиславу и всем учителям\n\nМузыка - Kevin Macleod - Horizon\n",
         "font": "basis33 — копия.ttf",
         "textAlignment": "center",
         "verticalTextAlignment": "top",
@@ -149,6 +149,32 @@
           },
           "parameters": [
             ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "DepartScene"
+          },
+          "parameters": [
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+          },
+          "parameters": [
+            "NewText",
+            "Text",
+            "=",
+            "GlobalVariableString(Lang[GlobalVariableString(CurrentLang)].authors)"
           ]
         }
       ]

@@ -3924,6 +3924,39 @@
               "parameters": [
                 "TwoChoicesDialogBox"
               ]
+            },
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "TwoChoicesDialogBox",
+                "Text",
+                "=",
+                "GlobalVariableString(Lang[GlobalVariableString(CurrentLang)].levers_none)"
+              ]
+            },
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "многосвета",
+                "Text",
+                "=",
+                "GlobalVariableString(Lang[GlobalVariableString(CurrentLang)].many_light)"
+              ]
+            },
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "большерычагов",
+                "Text",
+                "=",
+                "GlobalVariableString(Lang[GlobalVariableString(CurrentLang)].levers_notenough)"
+              ]
             }
           ]
         },

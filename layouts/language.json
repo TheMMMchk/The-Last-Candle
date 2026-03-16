@@ -1,13 +1,13 @@
 {
-  "b": 0,
+  "b": 20,
   "disableInputWhenNotFocused": true,
-  "mangledName": "win",
-  "name": "win",
-  "r": 0,
+  "mangledName": "language",
+  "name": "language",
+  "r": 20,
   "standardSortMethod": true,
   "stopSoundsOnStartup": true,
   "title": "",
-  "v": 0,
+  "v": 20,
   "uiSettings": {
     "grid": false,
     "gridType": "rectangular",
@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.5538024698711209,
+    "zoomFactor": 0.546875,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -27,84 +27,35 @@
     {
       "angle": 0,
       "customSize": true,
-      "depth": 4,
-      "height": 412,
+      "depth": 13,
+      "height": 160,
       "keepRatio": true,
       "layer": "",
-      "name": "Door",
-      "persistentUuid": "b7da84b3-ed46-45fe-95c0-18dee9546df8",
-      "width": 335,
-      "x": 461,
-      "y": 304,
+      "name": "United_Kingdom",
+      "persistentUuid": "bec8eb6f-1951-458c-94c1-ee81fc0fb19b",
+      "width": 213,
+      "x": 243,
+      "y": 276,
       "zOrder": 1,
-      "numberProperties": [
-        {
-          "name": "animation",
-          "value": 1
-        }
-      ],
+      "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
     },
     {
       "angle": 0,
       "customSize": true,
-      "depth": 4,
-      "height": 449,
+      "depth": 13.06132075471698,
+      "height": 159.75,
       "keepRatio": true,
       "layer": "",
-      "name": "NewSprite",
-      "persistentUuid": "0b41a977-2ca6-4bb2-a38c-6d211095795c",
-      "width": 446,
-      "x": 409,
+      "name": "Russia",
+      "persistentUuid": "b319fed3-3a41-4547-af4b-e26bc0cb3fd4",
+      "width": 213,
+      "x": 839,
       "y": 279,
       "zOrder": 2,
-      "numberProperties": [
-        {
-          "name": "animation",
-          "value": 0
-        }
-      ],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 2,
-      "height": 83,
-      "keepRatio": true,
-      "layer": "",
-      "name": "NewText",
-      "persistentUuid": "9dc71dd7-887e-45f4-baa8-cb153c8643e2",
-      "width": 490,
-      "x": 376,
-      "y": 201,
-      "zOrder": 3,
       "numberProperties": [],
       "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 2,
-      "height": 811,
-      "keepRatio": true,
-      "layer": "",
-      "name": "NewTileMap",
-      "persistentUuid": "e70649ab-2109-4923-8272-9c3b73397e58",
-      "width": 1397,
-      "x": -58,
-      "y": 0,
-      "zOrder": 0,
-      "numberProperties": [],
-      "stringProperties": [
-        {
-          "name": "tilemap",
-          "value": "{\"tileWidth\":16,\"tileHeight\":16,\"dimX\":31,\"dimY\":18,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[538,538,538,538,538,538,538,538,538,538,538,538,538,538,538,538,538,538,538,538,538,538,538,538,538,538,538,538,538,538,538],[504,504,504,504,504,504,504,504,504,504,504,504,504,504,504,504,504,504,504,504,504,504,504,504,504,504,504,504,504,504,504],[521,521,521,521,521,521,521,521,521,521,521,521,521,521,521,521,521,521,521,521,521,521,521,521,521,521,521,521,521,521,521],[538,538,538,538,538,538,538,538,538,538,538,538,538,538,538,538,538,538,538,538,538,538,538,538,538,538,538,538,538,538,538],[504,504,504,504,504,504,504,504,504,504,504,504,504,504,504,504,504,504,504,504,504,504,504,504,504,504,504,504,504,504,504],[521,521,521,521,521,521,521,521,521,521,521,521,521,521,521,521,521,521,521,521,521,521,521,521,521,521,521,521,521,521,521],[538,538,538,538,538,538,538,538,538,538,538,538,538,538,538,538,538,538,538,538,538,538,538,538,538,538,538,538,538,538,538],[504,504,504,504,504,504,504,504,504,504,504,504,504,504,504,504,504,504,504,504,504,504,504,504,504,504,504,504,504,504,504],[521,521,521,521,521,521,521,521,521,521,521,521,521,521,521,521,521,521,521,521,521,521,521,521,521,521,521,521,521,521,521],[538,538,538,538,538,538,538,538,538,538,538,538,538,538,538,538,538,538,538,538,538,538,538,538,538,538,538,538,538,538,538],[504,504,504,504,504,504,504,504,504,504,504,504,504,504,504,504,504,504,504,504,504,504,504,504,504,504,504,504,504,504,504],[521,521,521,521,521,521,521,521,521,521,521,521,521,521,521,521,521,521,521,521,521,521,521,521,521,521,521,521,521,521,521],[538,538,538,538,538,538,538,538,538,538,538,538,538,538,538,538,538,538,538,538,538,538,538,538,538,538,538,538,538,538,538],[504,504,504,504,504,504,504,504,504,504,504,504,504,504,504,504,504,504,504,504,504,504,504,504,504,504,504,504,504,504,504],[521,521,521,521,521,521,521,521,521,521,521,521,521,521,521,521,521,521,521,521,521,521,521,521,521,521,521,521,521,521,521],[538,538,538,538,538,538,538,538,538,538,538,538,538,538,538,538,538,538,538,538,538,538,538,538,538,538,538,538,538,538,538],[504,504,504,504,504,504,504,504,504,504,504,504,504,504,504,504,504,504,504,504,504,504,504,504,504,504,504,504,504,504,504],[521,521,521,521,521,521,521,521,521,521,521,521,521,521,521,521,521,521,521,521,521,521,521,521,521,521,521,521,521,521,521]]}]}"
-        }
-      ],
       "initialVariables": []
     },
     {
@@ -112,30 +63,29 @@
       "customSize": false,
       "height": 0,
       "keepRatio": true,
-      "layer": "Lighting",
-      "name": "lobby_light",
-      "persistentUuid": "7af3b9c0-f5f4-4ca9-8be7-26076c3ba186",
+      "layer": "",
+      "name": "NewText",
+      "persistentUuid": "8c236cf5-4124-4557-9bc3-cc7eb4f03a3e",
       "width": 0,
-      "x": 629,
-      "y": 449,
-      "zOrder": 4,
+      "x": 435,
+      "y": 15,
+      "zOrder": 3,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
     },
     {
       "angle": 0,
-      "customSize": true,
-      "depth": 127,
-      "height": 95,
+      "customSize": false,
+      "height": 0,
       "keepRatio": true,
       "layer": "",
-      "name": "SmallWhiteButton",
-      "persistentUuid": "c47706e8-6486-4771-a4aa-8968c031286a",
-      "width": 253,
-      "x": 16,
-      "y": 620,
-      "zOrder": 5,
+      "name": "NewText2",
+      "persistentUuid": "2a031978-aca7-409e-b91a-11d456576784",
+      "width": 0,
+      "x": 408,
+      "y": 650,
+      "zOrder": 4,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -144,8 +94,8 @@
   "objects": [
     {
       "adaptCollisionMaskAutomatically": true,
-      "assetStoreId": "",
-      "name": "NewSprite",
+      "assetStoreId": "39ec39ed4e2593665c78c0c278536ff302852ead3659f8e2b3f21a10506e5662",
+      "name": "United_Kingdom",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -153,17 +103,16 @@
       "behaviors": [],
       "animations": [
         {
-          "name": "девадушарада",
+          "name": "",
           "useMultipleDirections": false,
           "directions": [
             {
-              "looping": false,
-              "metadata": "{\"pskl\":{}}",
-              "timeBetweenFrames": 0.08,
+              "looping": true,
+              "timeBetweenFrames": 0.025,
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "девадушарада2",
+                  "image": "United Kingdom.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -179,20 +128,80 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 48,
-                        "y": 40
+                        "x": 0,
+                        "y": 0
                       },
                       {
-                        "x": 200,
-                        "y": 40
+                        "x": 16,
+                        "y": 0
                       },
                       {
-                        "x": 200,
-                        "y": 248
+                        "x": 16,
+                        "y": 12
                       },
                       {
-                        "x": 48,
-                        "y": 248
+                        "x": 0,
+                        "y": 12
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "f7cfa2965c15f84daee7bac5296947e7bca65c1e2a89f8c0bca4482cc98a2da7",
+      "name": "Russia",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.025,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Russia.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 16,
+                        "y": 0
+                      },
+                      {
+                        "x": 16,
+                        "y": 12
+                      },
+                      {
+                        "x": 0,
+                        "y": 12
                       }
                     ]
                   ]
@@ -214,10 +223,10 @@
       "variables": [],
       "effects": [],
       "behaviors": [],
-      "string": "Ты сбежал!!",
+      "string": "Выберете язык",
       "font": "basis33 — копия.ttf",
-      "textAlignment": "center",
-      "characterSize": 76,
+      "textAlignment": "left",
+      "characterSize": 73,
       "color": {
         "b": 255,
         "g": 255,
@@ -225,10 +234,10 @@
       },
       "content": {
         "bold": false,
-        "isOutlineEnabled": true,
+        "isOutlineEnabled": false,
         "isShadowEnabled": false,
         "italic": false,
-        "outlineColor": "0;0;0",
+        "outlineColor": "255;255;255",
         "outlineThickness": 2,
         "shadowAngle": 90,
         "shadowBlurRadius": 2,
@@ -237,40 +246,56 @@
         "shadowOpacity": 127,
         "smoothed": true,
         "underlined": false,
-        "text": "Ты сбежал!!",
+        "text": "Выберете язык",
         "font": "basis33 — копия.ttf",
-        "textAlignment": "center",
+        "textAlignment": "left",
         "verticalTextAlignment": "top",
-        "characterSize": 76,
+        "characterSize": 73,
         "lineHeight": 0,
         "color": "255;255;255"
       }
     },
     {
       "assetStoreId": "",
-      "name": "lobby_light",
-      "type": "Lighting::LightObject",
+      "bold": false,
+      "italic": false,
+      "name": "NewText2",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
       "variables": [],
       "effects": [],
       "behaviors": [],
+      "string": "Choose language",
+      "font": "basis33 — копия.ttf",
+      "textAlignment": "left",
+      "characterSize": 75,
+      "color": {
+        "b": 255,
+        "g": 255,
+        "r": 255
+      },
       "content": {
-        "radius": 600,
-        "color": "255;255;255",
-        "debugMode": false,
-        "texture": ""
-      }
-    },
-    {
-      "assetStoreId": "53d0c4f44a79a8c1651b3aafa9df6064d459255607d04801535a2ba551e6e963",
-      "name": "SmallWhiteButton",
-      "type": "PanelSpriteButton::PanelSpriteButton",
-      "variant": "Small White Button2",
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "content": {
-        "LabelText": "В меню",
-        "PressedLabelOffsetY": 2
+        "bold": false,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "Choose language",
+        "font": "basis33 — копия.ttf",
+        "textAlignment": "left",
+        "verticalTextAlignment": "top",
+        "characterSize": 75,
+        "lineHeight": 0,
+        "color": "255;255;255"
       }
     }
   ],
@@ -278,16 +303,16 @@
     "folderName": "__ROOT",
     "children": [
       {
-        "objectName": "NewSprite"
+        "objectName": "United_Kingdom"
       },
       {
-        "objectName": "lobby_light"
+        "objectName": "Russia"
       },
       {
         "objectName": "NewText"
       },
       {
-        "objectName": "SmallWhiteButton"
+        "objectName": "NewText2"
       }
     ]
   },
@@ -297,15 +322,46 @@
       "conditions": [
         {
           "type": {
-            "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
+            "value": "SourisSurObjet"
           },
           "parameters": [
-            "SmallWhiteButton",
+            "Russia",
+            "",
+            "",
             ""
+          ]
+        },
+        {
+          "type": {
+            "value": "MouseButtonFromTextPressed"
+          },
+          "parameters": [
+            "",
+            "\"Left\""
           ]
         }
       ],
       "actions": [
+        {
+          "type": {
+            "value": "SetStringVariable"
+          },
+          "parameters": [
+            "CurrentLang",
+            "=",
+            "\"RU\""
+          ]
+        },
+        {
+          "type": {
+            "value": "EcrireFichierTxt"
+          },
+          "parameters": [
+            "\"language\"",
+            "\"language\"",
+            "\"RU\""
+          ]
+        },
         {
           "type": {
             "value": "Scene"
@@ -323,45 +379,53 @@
       "conditions": [
         {
           "type": {
-            "value": "DepartScene"
+            "value": "SourisSurObjet"
           },
           "parameters": [
+            "United_Kingdom",
+            "",
+            "",
             ""
+          ]
+        },
+        {
+          "type": {
+            "value": "MouseButtonFromTextPressed"
+          },
+          "parameters": [
+            "",
+            "\"Left\""
           ]
         }
       ],
       "actions": [
         {
           "type": {
-            "value": "PlaySound"
+            "value": "SetStringVariable"
           },
           "parameters": [
-            "",
-            "fightscene-76761.mp3",
-            "no",
-            "",
-            ""
+            "CurrentLang",
+            "=",
+            "\"EN\""
           ]
         },
         {
           "type": {
-            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+            "value": "EcrireFichierTxt"
           },
           "parameters": [
-            "NewText",
-            "Text",
-            "=",
-            "GlobalVariableString(Lang[GlobalVariableString(CurrentLang)].win)"
+            "\"language\"",
+            "\"language\"",
+            "\"EN\""
           ]
         },
         {
           "type": {
-            "value": "PanelSpriteButton::PanelSpriteButton::SetLabelTextOp"
+            "value": "Scene"
           },
           "parameters": [
-            "SmallWhiteButton",
-            "=",
-            "GlobalVariableString(Lang[GlobalVariableString(CurrentLang)].to_menu)",
+            "",
+            "\"main_menu\"",
             ""
           ]
         }
@@ -377,7 +441,6 @@
       "camera3DFieldOfView": 45,
       "camera3DNearPlaneDistance": 3,
       "cameraType": "",
-      "defaultCameraBehavior": "do-nothing",
       "followBaseLayerCamera": false,
       "isLightingLayer": false,
       "isLocked": false,
@@ -433,24 +496,6 @@
           }
         }
       ]
-    },
-    {
-      "ambientLightColorB": 119,
-      "ambientLightColorG": 119,
-      "ambientLightColorR": 119,
-      "camera3DFarPlaneDistance": 10000,
-      "camera3DFieldOfView": 45,
-      "camera3DNearPlaneDistance": 3,
-      "cameraType": "",
-      "defaultCameraBehavior": "do-nothing",
-      "followBaseLayerCamera": true,
-      "isLightingLayer": true,
-      "isLocked": false,
-      "name": "Lighting",
-      "renderingType": "",
-      "visibility": true,
-      "cameras": [],
-      "effects": []
     }
   ],
   "behaviorsSharedData": [

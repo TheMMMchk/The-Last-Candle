@@ -173,7 +173,7 @@
       ],
       "string": "Сохранение отсутствует",
       "font": "basis33 — копия.ttf",
-      "textAlignment": "left",
+      "textAlignment": "center",
       "characterSize": 55,
       "color": {
         "b": 255,
@@ -196,8 +196,8 @@
         "underlined": false,
         "text": "Сохранение отсутствует",
         "font": "basis33 — копия.ttf",
-        "textAlignment": "left",
-        "verticalTextAlignment": "top",
+        "textAlignment": "center",
+        "verticalTextAlignment": "center",
         "characterSize": 55,
         "lineHeight": 0,
         "color": "255;255;255"
@@ -457,6 +457,65 @@
             "665",
             "\"swingTo\"",
             "2",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "DepartScene"
+          },
+          "parameters": [
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+          },
+          "parameters": [
+            "NewText",
+            "Text",
+            "=",
+            "GlobalVariableString(Lang[GlobalVariableString(CurrentLang)].save_not_found)"
+          ]
+        },
+        {
+          "type": {
+            "value": "PanelSpriteButton::PanelSpriteButton::SetLabelTextOp"
+          },
+          "parameters": [
+            "SmallWhiteButton2",
+            "=",
+            "GlobalVariableString(Lang[GlobalVariableString(CurrentLang)].delete_save)",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "PanelSpriteButton::PanelSpriteButton::SetLabelTextOp"
+          },
+          "parameters": [
+            "RedButtonWithMetalFrame",
+            "=",
+            "GlobalVariableString(Lang[GlobalVariableString(CurrentLang)].new_game)",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "PanelSpriteButton::PanelSpriteButton::SetLabelTextOp"
+          },
+          "parameters": [
+            "RedButtonWithMetalFrame2",
+            "=",
+            "GlobalVariableString(Lang[GlobalVariableString(CurrentLang)].continue)",
             ""
           ]
         }
