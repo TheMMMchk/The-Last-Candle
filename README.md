@@ -1,5 +1,5 @@
 # The-Last-Candle <https://themmmchk.itch.io/the-last-candle>
-## Игра для gamejam'а под названием Easyjam / Game of gamejam named Easyjam
+## Игра для gamejam'а под названием Easyjam / Game for gamejam named Easyjam
 When darkness consumes everything, only the candlelight remains.
 
 ​You are a ghost lost within the walls of an ancient castle.
